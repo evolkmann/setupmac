@@ -2,13 +2,14 @@
 # list of applications to install
 general:
   local_home: "{{ lookup('env','HOME') }}"
+  enable_downloads: false
 
 # homebrew applications
 applications:
   - autojump
   - git
-  - tree
-  - httpie
+#  - tree
+#  - httpie
   - curl
   - wget
   - kubectl
@@ -16,10 +17,10 @@ applications:
   - zsh
   - go
   - vim
-  - hugo
-  - saltstack
+#  - hugo
+#  - saltstack
   - neovim
-  - ag 
+#  - ag 
   - ctags
   - terraform
 
@@ -30,23 +31,36 @@ cask_applications:
   - iterm2
   - caffeine
   - docker
-  - minikube
-  - vagrant
-  - emacs
-  - garmin-express
-  - 1password
-  - alfred
-  - virtualbox
-  - spotify
+#  - minikube
+#  - vagrant
+#  - emacs
+#  - garmin-express
+#  - 1password
+#  - alfred
+#  - virtualbox
+#  - spotify
   - steam
+  - visual-studio-code
+  - teamviewer
+  - discord
+  - microsoft-teams
 
 downloads:
-   zwift:
-     name: Zwift
-     url: http://cdn.zwift.com/app/ZwiftOSX.dmg
-     dest: "{{general.local_home}}/Downloads/ZwiftOSX.dmg"
-   suuntolink:
-     name: Suunto Movescount link
-     url: http://suuntolink.static.movescount.com/Suuntolink_installer.dmg
-     dest: "{{general.local_home}}/Downloads/Suuntolink_installer.dmg"
+  rekordbox:
+    name: rekordbox
+    url: https://rekordbox.com/_app/files/Install_rekordbox_5_8_4.pkg.zip
+    dest: "{{general.local_home}}/Downloads/rekordbox.pkg"
+  office365:
+    name: office365
+    url: https://officecdn-microsoft-com.akamaized.net/pr/C1297A47-86C4-4C1F-97FA-950631F94777/MacAutoupdate/Microsoft_Office_16.35.20030802_Installer.pkg
+    dest: "{{general.local_home}}/Downloads/Microsoft_Office_16.35.20030802_Installer.pkg"
+
+#   zwift:
+#     name: Zwift
+#     url: http://cdn.zwift.com/app/ZwiftOSX.dmg
+#     dest: "{{general.local_home}}/Downloads/ZwiftOSX.dmg"
+#   suuntolink:
+#     name: Suunto Movescount link
+#     url: http://suuntolink.static.movescount.com/Suuntolink_installer.dmg
+#     dest: "{{general.local_home}}/Downloads/Suuntolink_installer.dmg"
 
