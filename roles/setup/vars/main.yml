@@ -45,6 +45,7 @@ cask_applications:
   - teamviewer
   - discord
   - microsoft-teams
+  - microsoft-office
   - microsoft-azure-storage-explorer
   - whatsapp
   - telegram
@@ -53,6 +54,7 @@ cask_applications:
   - tidal
   - little-snitch
   - onedrive
+  - rekordbox
 #  - font-noto-nerd-font-mono
 #  - font-noto-nerd-font
 #  - font-robotomono-nerd-font-mono
