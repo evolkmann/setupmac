@@ -17,10 +17,10 @@
     dest: "{{general.local_home}}/.oh-my-zsh/themes/dracula.zsh-theme"
     state: link
 
-- name: setting up emacs with spacemacs 
-  git:
-    repo: https://github.com/syl20bnr/spacemacs
-    dest: "{{general.local_home}}/.emacs.d"
+#- name: setting up emacs with spacemacs 
+#  git:
+#    repo: https://github.com/syl20bnr/spacemacs
+#    dest: "{{general.local_home}}/.emacs.d"
 
 - name: create workspace directories
   file:

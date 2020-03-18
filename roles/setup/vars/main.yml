@@ -3,9 +3,11 @@
 general:
   local_home: "{{ lookup('env','HOME') }}"
   enable_downloads: false
+  dotfiles: false
 
 # homebrew applications
 applications:
+  - fish
   - autojump
   - git
 #  - tree
@@ -18,11 +20,12 @@ applications:
   - go
   - vim
 #  - hugo
-#  - saltstack
   - neovim
 #  - ag 
   - ctags
   - terraform
+  - azure-cli
+  - flac
 
 # homebrew cask applications
 cask_applications:
@@ -33,8 +36,6 @@ cask_applications:
   - docker
 #  - minikube
 #  - vagrant
-#  - emacs
-#  - garmin-express
 #  - 1password
 #  - alfred
 #  - virtualbox
@@ -44,6 +45,22 @@ cask_applications:
   - teamviewer
   - discord
   - microsoft-teams
+  - microsoft-azure-storage-explorer
+  - whatsapp
+  - telegram
+  - cyberduck
+  - windscribe
+  - tidal
+  - little-snitch
+  - onedrive
+#  - font-noto-nerd-font-mono
+#  - font-noto-nerd-font
+#  - font-robotomono-nerd-font-mono
+#  - font-robotomono-nerd-font
+#  - font-sourcecodepro-nerd-fonto-mono
+#  - font-sourcecodepro-nerd-fonto
+#  - font-hack-nerd-font-mono
+#  - font-hack-nerd-font
 
 downloads:
   rekordbox:
