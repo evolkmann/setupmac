@@ -1,8 +1,12 @@
 - name: application installs
   include: apps.yml 
+  tags: apps
 
 - name: configuration
   include: configuration.yml
+  tags: configuration
 
 - name: dotfiles
   include: dotfiles.yml
+  tags: dotfiles
+  when: general.dotfiles

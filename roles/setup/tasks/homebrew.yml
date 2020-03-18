@@ -2,7 +2,7 @@
 # install and update homebrew and cask
 
 - name: install homebrew
-  shell: 'yes | /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"' 
+  shell: 'yes | /bin/bash -c $(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install.sh)' 
   args:
     creates: /usr/local/bin/brew
 
@@ -11,9 +11,9 @@
     state: latest
     update_homebrew: yes
 
-- name: tap homebrew caskroom/cask
-  homebrew_tap:
-    tap: "caskroom/cask"
+#- name: tap homebrew caskroom/cask
+#  homebrew_tap:
+#    tap: "caskroom/cask"
 
 - name: tap homebrew neovim/homebrew-neovim 
   homebrew_tap:

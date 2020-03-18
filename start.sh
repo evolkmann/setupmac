@@ -26,15 +26,15 @@ echo "Setting up your mac using daemonza/setupmac"
 echo "==========================================="
 
 sudo easy_install pip
-sudo easy_install ansible
+sudo pip install ansible
 
 installdir="/tmp/setupmac-$RANDOM"
 mkdir $installdir
 
-git clone https://github.com/daemonza/setupmac.git $installdir 
+git clone https://github.com/icklers/setupmac.git $installdir 
 if [ ! -d $installdir ]; then
     echo "failed to find setupmac."
-    echo "git cloned failed"
+    echo "git clone failed"
     exit 1
 else
     cd $installdir 
