@@ -26,6 +26,8 @@ applications:
   - terraform
   - azure-cli
   - flac
+  - minikube
+
 
 # homebrew cask applications
 cask_applications:
@@ -34,18 +36,14 @@ cask_applications:
   - iterm2
   - caffeine
   - docker
-#  - minikube
-#  - vagrant
-#  - 1password
-#  - alfred
-#  - virtualbox
-#  - spotify
+  - dashlane
+  - alfred
   - steam
   - visual-studio-code
   - teamviewer
   - discord
   - microsoft-teams
-  - microsoft-office
+  # - microsoft-office
   - microsoft-azure-storage-explorer
   - whatsapp
   - telegram
@@ -55,6 +53,11 @@ cask_applications:
   - little-snitch
   - onedrive
   - rekordbox
+  - vlc
+  - vagrant
+  - virtualbox
+  - virtualbox-extension-pack
+  - obs
 #  - font-noto-nerd-font-mono
 #  - font-noto-nerd-font
 #  - font-robotomono-nerd-font-mono
