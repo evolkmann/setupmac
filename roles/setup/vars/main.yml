@@ -13,6 +13,8 @@ applications:
   - kubectl
   - vim
   - node
+  - yarn
+  - deno
 
 # homebrew cask applications
 cask_applications:
