@@ -7,6 +7,7 @@ general:
 
 # homebrew applications
 applications:
+  - bash
   - git
   - curl
   - wget
