@@ -7,77 +7,31 @@ general:
 
 # homebrew applications
 applications:
-  - fish
-  - autojump
   - git
-#  - tree
-#  - httpie
   - curl
   - wget
   - kubectl
-  - kubernetes-helm
-  - zsh
-  - go
   - vim
-#  - hugo
-  - neovim
-#  - ag 
-  - ctags
-  - terraform
-  - azure-cli
-  - flac
+  - node
 
 # homebrew cask applications
 cask_applications:
   - google-chrome
   - slack
-  - iterm2
-  - caffeine
   - docker
-#  - minikube
-#  - vagrant
-#  - 1password
-#  - alfred
-#  - virtualbox
-#  - spotify
-  - steam
+  - vagrant
+  - 1password
+  - virtualbox
   - visual-studio-code
   - teamviewer
-  - discord
   - microsoft-teams
-  - microsoft-azure-storage-explorer
   - whatsapp
-  - telegram
   - cyberduck
-  - windscribe
-  - tidal
-  - little-snitch
-  - onedrive
-#  - font-noto-nerd-font-mono
-#  - font-noto-nerd-font
-#  - font-robotomono-nerd-font-mono
-#  - font-robotomono-nerd-font
-#  - font-sourcecodepro-nerd-fonto-mono
-#  - font-sourcecodepro-nerd-fonto
-#  - font-hack-nerd-font-mono
-#  - font-hack-nerd-font
+  - adobe-creative-cloud
 
 downloads:
-  rekordbox:
-    name: rekordbox
-    url: https://rekordbox.com/_app/files/Install_rekordbox_5_8_4.pkg.zip
-    dest: "{{general.local_home}}/Downloads/rekordbox.pkg"
-  office365:
-    name: office365
-    url: https://officecdn-microsoft-com.akamaized.net/pr/C1297A47-86C4-4C1F-97FA-950631F94777/MacAutoupdate/Microsoft_Office_16.35.20030802_Installer.pkg
-    dest: "{{general.local_home}}/Downloads/Microsoft_Office_16.35.20030802_Installer.pkg"
-
-#   zwift:
-#     name: Zwift
-#     url: http://cdn.zwift.com/app/ZwiftOSX.dmg
-#     dest: "{{general.local_home}}/Downloads/ZwiftOSX.dmg"
-#   suuntolink:
-#     name: Suunto Movescount link
-#     url: http://suuntolink.static.movescount.com/Suuntolink_installer.dmg
-#     dest: "{{general.local_home}}/Downloads/Suuntolink_installer.dmg"
+#  office365:
+#    name: office365
+#    url: https://officecdn-microsoft-com.akamaized.net/pr/C1297A47-86C4-4C1F-97FA-950631F94777/MacAutoupdate/Microsoft_Office_16.35.20030802_Installer.pkg
+#    dest: "{{general.local_home}}/Downloads/Microsoft_Office_16.35.20030802_Installer.pkg"
 
