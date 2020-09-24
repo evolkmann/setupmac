@@ -30,6 +30,7 @@ cask_applications:
   - whatsapp
   - cyberduck
   - adobe-creative-cloud
+  - postman
 
 downloads:
 #  office365:
