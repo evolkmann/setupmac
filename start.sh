@@ -31,7 +31,7 @@ sudo pip install ansible
 installdir="/tmp/setupmac-$RANDOM"
 mkdir $installdir
 
-git clone https://github.com/icklers/setupmac.git $installdir 
+git clone https://github.com/evolkmann/setupmac.git $installdir 
 if [ ! -d $installdir ]; then
     echo "failed to find setupmac."
     echo "git clone failed"
