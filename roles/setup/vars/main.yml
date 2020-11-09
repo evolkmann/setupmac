@@ -17,6 +17,7 @@ applications:
   - yarn
   - deno
   - postgresql
+  - gnupg
 
 # homebrew cask applications
 cask_applications:
