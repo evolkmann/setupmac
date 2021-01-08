@@ -18,6 +18,7 @@ applications:
   - deno
   - postgresql
   - gnupg
+  - imagemagick
 
 # homebrew cask applications
 cask_applications:
